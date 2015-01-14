@@ -44,6 +44,7 @@ var QuestionPage = React.createClass({
     });
 
     return <div className='layout-container'>
+      <p className='question-subtitle'>În cazul unui eveniment neplăcut...</p>
       <p>{data.questions[questionNo]}</p>
       <div className='buttons-container'>
         {buttons}
