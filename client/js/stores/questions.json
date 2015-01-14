@@ -1,0 +1,85 @@
+{
+  "questions": [
+    "Am sentimentul că eu sunt cel/cea vinovat(ă) pentru ceea ce s-a întâmplat.",
+    "Mă gândesc că trebuie să accept ca acel lucru s-a întâmplat.",
+    "Mă gândesc destul de des la ceea ce resimt prin raportare la situațiile pe care le-am trăit.",
+    "Mă gândesc la lucruri mai agreabile decât cele pe care le-am trăit.",
+    "Mă gândesc la cea mai bună posibilitate de a acționa.",
+    "Încerc să învăț ceva din situația trăită.",
+    "Mă gândesc că s-ar fi putut întâmpla lucruri și mai rele.",
+    "Mă gândesc destul de des că situațiile pe care le-am trăit eu sunt mai rele decât cele trăite de oamenii din jurul meu.",
+    "Am sentimentul că cei din jur (alții) sunt vinovați pentru ceea ce s-a întâmplat.",
+    "Am sentimentul că sunt responsabil pentru ceea ce s-a întâmplat.",
+    "Mă gândesc că trebuie să accept situația.",
+    "Sunt preocupată de ceea ce cred (gândesc) și de ceea ce simt în legătură cu ceea ce am trăit.",
+    "Mă gândesc la situații mai fericite care nu au nicio legătură cu ceea ce eu am trăit.",
+    "Mă gândesc la cea mai bună modalitate de a gestiona situația.",
+    "Cred că o să devin o persoană mai puternică datorită experiențelor trăite.",
+    "Cred că și alții trec prin experiențe dificile.",
+    "Mă gândesc fără oprire la faptul că am trăit experiențe teribile.",
+    "Am sentimentul că alții sunt responsabili pentru ce s-a întâmplat.",
+    "Mă gândesc la greșelile pe care le-am făcut prin raportare la experiențele pe care le-am avut.",
+    "Cred că nu pot schimba nimic din ceea ce s-a întâmplat.",
+    "Vrea să înțeleg de ce mă simt astfel raportându-mă la ceea ce am trăit.",
+    "Mă gândesc mai degrabă la o situație fericită decât la ceea ce s-a întâmplat cu adevărat.",
+    "Mă gândesc la o modalitate de a schimba situația.",
+    "Cred că situația aceea are și aspecte pozitive.",
+    "Cred că acea situația nu a fost chiar așa rea prin comparație cu altele.",
+    "Mă gândesc destul de des la faptul că ceea ce mi s-a întâmplat este cel mai rău lucru care s-ar putea întâmpla cuiva.",
+    "Mă gândesc la greșelile pe care alții le-au comis prin raportare la ceea ce s-a întâmplat.",
+    "În final cred că eu sunt cel/cea care a cauzat această situație.",
+    "Cred că trebuie să învăț să trăiesc cu ceea ce s-a întâmplat.",
+    "Mă gândesc mereu la sentimentele pe care acea situație le-a trezit în mine.",
+    "Mă gândesc la experiențe fericite.",
+    "Mă gândesc la un plan în ceea ce privește cea mai bună modalitate de a acționa.",
+    "Caut aspectele pozitive ale evenimentului respectiv.",
+    "Îmi spun că există lucruri și mai rele în viață.",
+    "Mă gândesc mereu la punctul din care situația a devenit teribilă.",
+    "Am sentimentul că în final ceilalți au cauzat situația respectivă."
+  ],
+  "results": [
+    {
+      "name": "Auto-culpabilizare",
+      "questions": [0, 9, 18, 27]
+    },
+    {
+      "name": "Acceptare",
+      "questions": [1, 10, 19, 28]
+    },
+    {
+      "name": "Reflectare",
+      "questions": [2, 11, 20, 29]
+    },
+    {
+      "name": "Accent pe perspectiva pozitivă",
+      "questions": [3, 12, 21, 30]
+    },
+    {
+      "name": "Accent pe posibilitatea de acțiune",
+      "questions": [4, 13, 22, 31]
+    },
+    {
+      "name": "Reevaluarea pozitivă",
+      "questions": [5, 14, 23, 32]
+    },
+    {
+      "name": "Punere în perspectivă",
+      "questions": [6, 15, 24, 33]
+    },
+    {
+      "name": "Dramatizare",
+      "questions": [7, 16, 25, 34]
+    },
+    {
+      "name": "Învinovățirea altei persoane",
+      "questions": [8, 17, 26, 35]
+    }
+  ],
+  "options": [
+    "Aproape niciodată",
+    "Uneori",
+    "De obicei",
+    "Adesea",
+    "Aproape întotdeauna"
+  ]
+}

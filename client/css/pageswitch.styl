@@ -1,0 +1,28 @@
+@keyframes pageswitch-enter
+  from 
+    opacity: 0.01
+    transform: translate3d(-50%, -50%, 50px)
+  to
+    opacity: 1
+    transform: translate3d(-50%, -50%, 0)
+
+@keyframes pageswitch-leave
+  from 
+    opacity: 1
+    transform: translate3d(-50%, -50%, 0)
+  to
+    opacity: 0.01
+    transform: translate3d(-50%, -50%, -50px)
+
+.pageswitch-enter
+  opacity: 0.01
+
+.pageswitch-enter.pageswitch-enter-active
+  animation: pageswitch-enter .5s
+
+.pageswitch-leave
+  opacity: 1
+
+.pageswitch-leave.pageswitch-leave-active
+  animation: pageswitch-leave .5s
+

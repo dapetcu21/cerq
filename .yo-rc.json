@@ -1,0 +1,17 @@
+{
+  "generator-ayen": {
+    "appName": "CERQ Test",
+    "authorName": "Marius Petcu",
+    "authorMail": "dapetcu21@gmail.com",
+    "githubName": "dapetcu21",
+    "packageName": "cerq",
+    "stagingURL": "http://cerq.herokuapp.com",
+    "description": "Cognitive Emotion Regulation Questionnaire",
+    "keywords": "cerq, cognitive, emotion, regulation, questionnaire",
+    "cssPrecompiler": "stylus",
+    "compilerFeatures": [
+      "react"
+    ],
+    "templateType": "react"
+  }
+}

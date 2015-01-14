@@ -1,0 +1,21 @@
+{
+  "name": "cerq",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dapetcu21/cerq",
+  "authors": [
+    "Marius Petcu <dapetcu21@gmail.com>"
+  ],
+  "description": "Cognitive Emotion Regulation Questionnaire",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "fontawesome": "~4.2.0",
+    "chartjs": "~1.0.1"
+  }
+}

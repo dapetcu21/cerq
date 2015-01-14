@@ -1,0 +1,12 @@
+node_modules
+*.swp
+*.swo
+*.log
+.DS_Store
+.tmp
+.env
+/coverage
+/public
+/client/js/lib/templates.js
+/client/js/lib/bower-components.js
+/client/bower_components
