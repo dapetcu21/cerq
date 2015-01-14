@@ -69,6 +69,17 @@ var RouteStore = Backbone.Model.extend({
     return v;
   },
 
+  getProgress: function() {
+    var sum = 0;
+    var n = this.answers.length;
+    for (var i = 0; i < n; i++) {
+      if (this.answers[i] !== null) {
+        sum++;
+      }
+    }
+    return sum / n;
+  },
+
   getNextLink: function (start) {
     var r = this.getNextQuestion(start);
     if (r !== null) {

@@ -7,14 +7,14 @@ var RootPage = require('./RootPage');
 var NotFoundPage = require('./NotFoundPage');
 var QuestionPage = require('./QuestionPage');
 var ResultsPage = require('./ResultsPage');
+var ProgressBar = require('./ProgressBar');
 
 
 var MainView = React.createClass({
   componentDidMount: function () {
-    var self = this;
     RouteStore.on('change', function () {
-      self.forceUpdate();
-    });
+      this.forceUpdate();
+    }, this);
   },
 
   componentWillUnmount: function () {
@@ -39,6 +39,7 @@ var MainView = React.createClass({
     })();
 
     return <div>
+      <ProgressBar/>
       <ReactCSSTransitionGroup transitionName='pageswitch'>
         {page}
       </ReactCSSTransitionGroup>
